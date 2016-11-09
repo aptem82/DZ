@@ -2,7 +2,7 @@
 
 function tab($p1, $p2)
 {
-    if (!isset($p1) || !isset($p2) || (!isset($p1) && !isset($p2))) {
+       if (!isset($p1) || !isset($p2) || (!isset($p1) && !isset($p2))) {
         echo "Err: некорректно введены параметры";
         return;
     }
@@ -28,4 +28,4 @@ function tab($p1, $p2)
     }
 }
 
-tab(3, 56);
+tab(2);
